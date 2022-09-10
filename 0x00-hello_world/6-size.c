@@ -2,7 +2,7 @@
 
 /**
  * main - prints the various type sizes
- * return - 0 to exit corretly
+ * return - "0" to exit corretly
  */
 
 int main(void)
@@ -14,3 +14,4 @@ int main(void)
 	("size of a long long int: 8 byte(s)\n");
 	("size of a float: 4 byte(s)\n");
 	return (0);
+}
