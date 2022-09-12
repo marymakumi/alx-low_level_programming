@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - prints the various type sizes
- * return - "0" to exit corretly
+ *main- prints the various type sizes
+ *Return: Always 0 (success)
+ *
  */
 
 int main(void)
 
 {
-	("size of a char: 1 byte(s)\n");
-	("size of an int: 4 byte(s)\n");
-	("size of a long int: 4 bytes(s)\n");
-	("size of a long long int: 8 byte(s)\n");
-	("size of a float: 4 byte(s)\n");
+	("size of a char: %ld byte(s)\n", sizeof(char));
+	("size of an int: %ld byte(s)\n", sizeof(int));
+	("size of a long int: %ld bytes(s)\n", sizeof(long));
+	("size of a long long int: %ld byte(s)\n", sizeof(long long));
+	("size of a float: %ld byte(s)\n", sizeof(float));
 	return (0);
 }
